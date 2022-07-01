@@ -1,0 +1,26 @@
+@import '../scss/style';
+.header{
+  display: flex;
+  margin: 10px 0;
+    .section{
+        width: 173px;
+        height: 34px;
+        margin-right: 10px;
+        @include flex-center;
+        color: $text-secondary;
+        border-radius: 4px;
+        &:active {
+            color:$text-primary;
+        }
+        
+        &[tabindex]:focus {
+            color:$text-primary;
+            outline: none;
+            background-color: $base-green;
+        }
+        // &:hover{
+        //     background-color:$base-green;
+        //     color:white;
+        // }
+    }
+}

@@ -1,0 +1,43 @@
+@import './variables';
+@mixin flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin font($size,$weight){
+    font-size: $size;
+    font-weight: $weight;
+}
+.h1{
+    @include font(22px,medium);
+}
+.h2{
+    @include font(18px,medium);
+}
+.title{
+    @include font(16px,medium);
+}
+.numbers{
+    @include font(18px,semi-bold);
+}
+.sub-title{
+    @include font(14px,medium);
+}
+@mixin form-btn($color,$font-color){
+    padding: 4px 30px;
+    background-color: $color;
+    border-radius: 4px;
+    color:$font-color;
+    // background: inherit;
+    input{
+        color: $font-color;
+    }
+}
+.next{
+    @include form-btn($light-blue,white);
+    
+}
+.cancel{
+    @include form-btn($table-color,$text-secondary);
+    margin:0 20px;
+}

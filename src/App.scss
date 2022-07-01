@@ -1,0 +1,26 @@
+@use './scss/style';
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+ 
+}
+.App{
+  max-width: 1440px;
+  width: 100%;
+  height: 1024px;
+  display: flex;
+ a{
+  text-decoration: none;
+ }
+}
+input{
+  cursor: pointer;
+}
+// button{
+//   background: inherit;
+//   border: none;
+//   color: white;
+// }

@@ -1,0 +1,16 @@
+@use '../scss/style';
+@import '../scss/style';
+.user-mgmt{
+    display: flex;
+
+.main{
+    width: 1217px;
+   
+    
+   
+    .body{
+       
+        height: calc(1024px - 83px);
+        padding: 10px;
+    }
+}}

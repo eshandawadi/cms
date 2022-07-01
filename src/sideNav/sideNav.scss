@@ -1,0 +1,58 @@
+@import '../scss/style';
+
+.side-nav{
+    width:223px;
+    height:1024px;
+    background-color: $base-blue;
+    color: white;
+    .name-logo{
+        width:223px;
+        height: 24px;
+        padding: 35px 48px;
+        gap: 10px;
+        @include flex-center;
+        .name-logo-container{
+            display: flex;
+            .logo img{
+                width: 24px;
+                height: 24px;
+                padding-right: 5px;
+            }
+        }
+       
+    }
+    .side-nav-middle{
+        color: $text-secondary;
+        border-bottom: 1px solid $text-secondary;
+        padding:0 4px 343px ;
+        .icon{
+            display: flex;
+            padding: 10px 16px;
+            
+            &:hover{
+               
+                border-radius: 8px;
+                background-color: $dark-blue;
+            }
+            img{
+                padding:0 5px;
+            }
+            
+        }
+    }
+
+    .side-nav-bottom{
+        margin:  4px;
+        padding:10px 16px;
+        color: $text-secondary;
+        display: flex;
+        &:hover{
+               
+            border-radius: 8px;
+            background-color: $dark-blue;
+        }
+        img{
+            padding:0 5px;
+        }
+    }
+}

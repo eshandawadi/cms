@@ -1,0 +1,38 @@
+@import '../scss/style';
+.academics{
+    form{
+        width: 1169px;
+        height: 280px;
+        .form-data{
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid #969696;
+            padding: 20px 0;
+            border-radius: 5px;
+            margin-bottom: 25px;
+            .form-value{
+                margin: 10px 10px;
+                .label-title{
+                    img{
+                        padding: 0 4px;
+                    }
+                label{
+                    color: $text-primary;
+                   font-size: 14px;
+                }
+            }
+                input{
+                    width: 267px;
+                    height: 37px;
+                    padding: 8px;
+                    color: $text-secondary;
+                    border: 1px solid $base-green;
+                    border-radius: 4px;
+                    box-shadow: 0 1px 2px $text-secondary;
+                   
+                }
+            }
+        }
+       
+    }
+}

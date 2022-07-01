@@ -1,0 +1,55 @@
+@import '../scss/style';
+
+.std-mgmt{
+    display: flex;
+    .body{
+        padding:0 20px ;
+        form{
+            width: 1169px;
+            height: 280px;
+            
+            .form-data{
+                border: 1px solid $text-secondary;
+                padding: 20px 0;
+                border-radius: 5px;
+                margin-bottom: 25px;
+               .row{
+                    display: flex;
+                    &:nth-child(2){
+                        margin: 25px 0;
+                    }
+                .form-value{
+                    display: grid;
+                    margin: 0 10px;
+                    .label-title{
+                        img{
+                            padding: 0 4px;
+                        }
+                    label{
+                        color: $text-primary;
+                       font-size: 14px;
+                    }
+                }
+                    input{
+                        width: 267px;
+                        height: 37px;
+                        padding: 8px;
+                        color: $text-secondary;
+                        border: 1px solid $base-green;
+                        border-radius: 4px;
+                        box-shadow: 0 1px 2px $text-secondary;
+                       
+                    }
+                }
+            }
+        }
+        .form-btns{
+            display: flex;
+            input{
+                border: none;
+                background: inherit;
+            }
+        }
+        }
+    }
+}
